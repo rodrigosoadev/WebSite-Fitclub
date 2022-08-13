@@ -28,7 +28,6 @@ function Header() {
             <Link onClick={() => setMenuOpened(false)}
               activeclass='active'
               to='header'
-              spy={true}
               smooth={true}
             >
               Home
@@ -37,35 +36,35 @@ function Header() {
           <li>
             <Link onClick={() => setMenuOpened(false)}
               to='programs'
-              spy={true}
-              smooth={true}>
+              smooth={true}
+              >
               Programs
             </Link>
-            </li>
-          <li>
-          <Link onClick={() => setMenuOpened(false)}
-              to='programs'
-              spy={true}
-              smooth={true}>
-            Why Us
-          </Link>
           </li>
           <li>
-          <Link onClick={() => setMenuOpened(false)}
-              to='programs'
-              spy={true}
-              smooth={true}>
+            <Link onClick={() => setMenuOpened(false)}
+              to='reasons'
+              smooth={true}
+              >
+              Why Us
+            </Link>
+          </li>
+          <li>
+            <Link onClick={() => setMenuOpened(false)}
+              to='plans'
+              smooth={true}
+              >
               Plans
             </Link>
-            </li>
+          </li>
           <li>
-          <Link onClick={() => setMenuOpened(false)}
-              to='programs'
-              spy={true}
-              smooth={true}>
-             Testimonials
+            <Link onClick={() => setMenuOpened(false)}
+              to='Testimonials'
+              smooth={true}
+              >
+              Testimonials
             </Link>
-            </li>
+          </li>
         </ul>
       )}
 
